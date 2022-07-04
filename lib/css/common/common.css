@@ -1,0 +1,8 @@
+.wp-block-post-featured-image{
+	line-height:0;
+}
+/* Imagify Fix */
+.wp-block-post-featured-image picture img{
+	object-fit:inherit;
+	height:inherit;
+}
